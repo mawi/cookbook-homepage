@@ -4,7 +4,9 @@ license           "GPL v2"
 description       "Change your browser homepage"
 version           "0.1.69"
 supports          "homepage"
-recipe            "homepage", "Change your browser homepage"
+
+provides          "homepage::homepage"
+recipe            "homepage::homepage", "Change your browser homepage"
 
 
 attribute 'homepage/homepage',
